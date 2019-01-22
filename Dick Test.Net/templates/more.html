@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+  Second Page
+{% endblock %}
+
+{% block body %}
+
+  <p>
+    This is the second page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.This is the first page.
+  </p>
+
+Hello, {{ name }}
+
+<a href = "{{ url_for ('index')}}">Go Back</a>
+
+  {% endblock %}

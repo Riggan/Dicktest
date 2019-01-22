@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    input[type=text] {
+      width: 15%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid black;
+        }
+.header {
+      padding: 10px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+      font-size: 30px;
+    }
+
+.center {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.subhead{
+  padding: 7px;
+  text-align: center;
+  background: /* */	;
+  color: gray;
+  font-size: 30px;
+}
+
+button {
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+
+    <title>Home</title>
+  </head>
+
+  <body>
+    <h1>{% block heading %} {% endblock %}</h1>
+
+    {% block body %}
+    {% endblock %}
+  </body>
+
+</html>
