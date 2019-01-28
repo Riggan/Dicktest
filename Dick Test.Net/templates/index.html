@@ -19,11 +19,14 @@
 <h3>Your dick size is {{comment}}</h3>
 
 <br>
-
+<div id="namer">
+ <div id="namer-input">
 <form action="{{ url_for('index') }}" method="post">
     <input type="text" name="size" placeholder="Enter your dick size here">
+    <br>
     <button type="submit">Add Your Size</button>
 </form>
-
+</div>
+</div>
 </div>
 {% endblock %}
