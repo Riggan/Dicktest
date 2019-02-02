@@ -1,6 +1,11 @@
 class Dick:
 
+    counter = 1
     def __init__(self, size, IP, country):
+
+        self.id = Dick.counter
+        Dick.counter += 1
+        self.cid = cid
         self.size = size
         self.IP = IP
         self.country = country
